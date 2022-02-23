@@ -1,0 +1,6 @@
+com/dalong/exec/store/jdbc/conf/MyMSSQLConf.class
+com/dalong/exec/store/jdbc/dialect/MyMSSQLDialect$MSSQLSchemaFetcher.class
+com/dalong/exec/store/jdbc/dialect/MyMSSQLDialect$3.class
+com/dalong/exec/store/jdbc/dialect/MyMSSQLDialect.class
+com/dalong/exec/store/jdbc/dialect/MyMSSQLDialect$1.class
+com/dalong/exec/store/jdbc/dialect/MyMSSQLDialect$2.class
