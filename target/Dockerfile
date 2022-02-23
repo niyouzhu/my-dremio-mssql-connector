@@ -1,5 +1,5 @@
 FROM dremio/dremio-oss:20.1.0
-COPY my-mssql-20.0.0-202201050826310141-8cc7162b.jar /opt/dremio/jars/
+#COPY my-mssql-20.0.0-202201050826310141-8cc7162b.jar /opt/dremio/jars/
 #COPY calcite-core-1.16.0-202108042226350839-779444f.jar /opt/dremio/jars/3rdparty/
 EXPOSE 9047/tcp
 EXPOSE 31010/tcp
