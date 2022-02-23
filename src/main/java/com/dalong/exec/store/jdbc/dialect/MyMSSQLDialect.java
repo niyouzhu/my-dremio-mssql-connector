@@ -166,7 +166,7 @@ public class MyMSSQLDialect extends ArpDialect {
 
     static {
         SUPPORTED_WINDOW_AGG_CALLS = ImmutableSet.of(SqlStdOperatorTable.COUNT, SqlStdOperatorTable.LAST_VALUE, SqlStdOperatorTable.FIRST_VALUE);
-        DISABLE_PUSH_COLLATION = Boolean.getBoolean("dremio.jdbc.mssql.push-collation.disable");
+        DISABLE_PUSH_COLLATION = false;
         MSSQL_BINARY_COLLATION = new SqlCollation(Coercibility.NONE) {
             private static final long serialVersionUID = 1L;
 
